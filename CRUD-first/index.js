@@ -28,6 +28,8 @@ app.get('/api/courses/:id', (req, res) => {
 
 app.post('/api/courses', (req, res) => {
 
+  console.log(req.body.name)
+
   const { error } = validateCourse(req)
   if (error) return res.status(400).send(error.details[0].message);
 

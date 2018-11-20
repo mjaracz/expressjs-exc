@@ -1,0 +1,9 @@
+.env
+node_modules/
+data/
+README.md
+.gitignore
+.git/
+example.env
+.travis.yml
+docker/
